@@ -3,6 +3,8 @@
 ### Team05 Hossam Zaki¹, Julie Karam¹, Nasheath Ahmed¹, Qingyan Guo¹, Noa Mintz¹
 
 #### Project Overview
+Pregnancy complications encompass a wide range of conditions of varying severity and etiology. While the prevalence of common complications have been extensively studied and reported, the number of factors and their interactions along with the time intervals make predictions of pregnancy complications and outcomes very complicated. However, datasets are available that provide comprehensive information on health before and during pregnancy, and subsequent outcomes. Due to the large quantity and complex nature of medical information, ML is recognized as a promising method for supporting diagnosis or predicting clinical outcomes. Therefore, we sought to develop a multi-classification ML-model to predict the occurrence of pregnancy complications based on routinely-collected data found in electronic health records (EHRs). Our study found that the bi-classification models using top 15 selected features performed the best.
+
 
 #### Setup and Requirements
 
