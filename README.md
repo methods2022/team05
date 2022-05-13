@@ -2,13 +2,22 @@
 
 ### Team05 Hossam Zaki¹, Julie Karam¹, Nasheath Ahmed¹, Qingyan Guo¹, Noa Mintz¹
 
-#### Project Overview
+#### Project Overview:
 Pregnancy complications encompass a wide range of conditions of varying severity and etiology. While the prevalence of common complications have been extensively studied and reported, the number of factors and their interactions along with the time intervals make predictions of pregnancy complications and outcomes very complicated. However, datasets are available that provide comprehensive information on health before and during pregnancy, and subsequent outcomes. Due to the large quantity and complex nature of medical information, ML is recognized as a promising method for supporting diagnosis or predicting clinical outcomes. Therefore, we sought to develop a multi-classification ML-model to predict the occurrence of pregnancy complications based on routinely-collected data found in electronic health records (EHRs). Our study found that the bi-classification models using top 15 selected features performed the best.
+* The source codes are in `src` directory
+* The result figures are in `fig` directory
 
 
-#### Setup and Requirements
+#### Setup and Requirements:
+* Packages: 
+  * CSV
+  * DataFrames
+  * Statistics
+  * ScikitLearn
+  * VegaLite
+  * Dates
 
-#### Data Source
+#### Data Source:
 
 #### Methodologies:
 * Data Merge and Preprocess: 
@@ -28,3 +37,14 @@ Pregnancy complications encompass a wide range of conditions of varying severity
 
 * Supplementary codes: 
   * For interests, we try to pay more attention to *miscarriage*, as the complication appears more often than other complications. The corresponding codes are in `miscarriage_results.py`
+
+
+
+
+
+#### References:
+<br>1. U.S. Department of Health and Human Services. A Report of the Surgeon General: How Tobacco Smoke Causes Disease: What It Means to You. Atlanta: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health, 2010..
+<br>2. Khatibi, T., Hanifi, E., Sepehri, M.M. et al. Proposing a machine-learning based method to predict stillbirth before and during delivery and ranking the features: nationwide retrospective cross-sectional study. BMC Pregnancy Childbirth 21, 202 (2021).
+<br>3. Khatibi, T., Hanifi, E., Sepehri, M.M. et al. Proposing a machine-learning based method to predict stillbirth before and during delivery and ranking the features: nationwide retrospective cross-sectional study. BMC Pregnancy Childbirth 21, 202 (2021). https://doi.org/10.1186/s12884-021-03658-z
+<br>4. Davidson L, Boland MR. Towards deep phenotyping pregnancy: a systematic review on artificial intelligence and machine learning methods to improve pregnancy outcomes. Brief Bioinform. 2021 Sep 2;22(5):bbaa369. doi: 10.1093/bib/bbaa369. PMID: 33406530; PMCID: PMC8424395. https://pubmed.ncbi.nlm.nih.gov/33406530/
+
