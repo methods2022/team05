@@ -19,6 +19,7 @@ Pregnancy complications encompass a wide range of conditions of varying severity
 
 #### Data Source:
 
+The data comes from the 1K sample synthetic dataset from the open-source Synthea tool. You can download the raw data source and place it is in the same folder in the src folder. The scripts should be able to read in these files based on the folder it is in. 
 #### Methodologies:
 * Data Merge and Preprocess: 
   * The `data_merge.jl` file combines three important csv files based on unique *Patient_ID* to get the final dataset for our project. Then we get 332 recordings with 121 features in all. 
@@ -28,12 +29,15 @@ Pregnancy complications encompass a wide range of conditions of varying severity
   * The `EDA.jl` helps us to know the relationships between features and target variables. Also we can use *correlation matrix* to learn the dependency between differnt features.
 
 * Feature Selection:
+  * The data_analysis.jl allows us to know the percentage of missing features for each of the different features per patient.
 
 * Bi-classication models:
   * We firstly try to use all features for bi-classification task, the results can be seen as a baseline. The codes are in `bi_all_ftrs.jl`.
   * After the *feature selection* step, we utilize the top 15 important features to do the bi-classification task. The codes are in `bi_top15_ftrs.jl`.
+  * For the fulluu connected nueral network model, you can run `python neural_net_models.py` for the bi classification results which will be the first result. 
   
 * Multi-classification models:
+  * For the neural network multi-classification model, we can run `python neural_net_models.py` which will contain the b-classification and multi-class results. 
 
 * Supplementary codes: 
   * For interests, we try to pay more attention to *miscarriage*, as the complication appears more often than other complications. The corresponding codes are in `miscarriage_results.py`
