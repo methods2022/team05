@@ -16,6 +16,9 @@ Pregnancy complications encompass a wide range of conditions of varying severity
   * ScikitLearn
   * VegaLite
   * Dates
+  * Tensorflow/Keras
+  * Numpy
+  * Pandas
 
 #### Data Source:
 
