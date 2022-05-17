@@ -12,6 +12,7 @@ Pregnancy complications encompass a wide range of conditions of varying severity
 * Packages: 
   * CSV
   * DataFrames
+  * FeatureSelectors
   * Statistics
   * ScikitLearn
   * VegaLite
@@ -33,6 +34,7 @@ The data comes from the 1K sample synthetic dataset from the open-source Synthea
 
 * Feature Selection:
   * The data_analysis.jl allows us to know the percentage of missing features for each of the different features per patient.
+  * Further feature selection was performed using the julia package, FeatureSelectors which utilizes a correlation based feature selection method. Top 15 features were selected for each condition. Features were then parsed to remove seemingly falsely selected (features with many N/A values, etc.)
 
 * Bi-classication models:
   * We firstly try to use all features for bi-classification task, the results can be seen as a baseline. The codes are in `bi_all_ftrs.jl`.
