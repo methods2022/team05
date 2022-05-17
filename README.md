@@ -41,6 +41,7 @@ The data comes from the 1K sample synthetic dataset from the open-source Synthea
   
 * Multi-classification models:
   * For the neural network multi-classification model, we can run `python neural_net_models.py` which will contain the b-classification and multi-class results. 
+  * We can also use `multi_class_models.py` to run the decision tree and generate the large tree for analysis. 
 
 * Supplementary codes: 
   * For interests, we try to pay more attention to *miscarriage*, as the complication appears more often than other complications. The corresponding codes are in `miscarriage_results.py`
