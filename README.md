@@ -23,7 +23,7 @@ Pregnancy complications encompass a wide range of conditions of varying severity
 
 #### Data Source:
 
-The data comes from the 1K sample synthetic dataset from the open-source Synthea tool. You can download the raw data source and place it is in the same folder in the src folder. The scripts should be able to read in these files based on the folder it is in. 
+The data comes from the 1K sample synthetic dataset from the open-source Synthea tool. You can download the raw data source and place it is in the same folder in the src folder. The scripts should be able to read in these files based on the folder it is in. The data can be downloaded at this link by clicking [here](https://synthea.mitre.org/downloads).
 #### Methodologies:
 * Data Merge and Preprocess: 
   * The `data_merge.jl` file combines three important csv files based on unique *Patient_ID* to get the final dataset for our project. Then we get 332 recordings with 121 features in all. 
