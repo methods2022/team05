@@ -39,10 +39,10 @@ The data comes from the 1K sample synthetic dataset from the open-source Synthea
 * Bi-classication models:
   * We firstly try to use all features for bi-classification task, the results can be seen as a baseline. The codes are in `bi_all_ftrs.jl`.
   * After the *feature selection* step, we utilize the top 15 important features to do the bi-classification task. The codes are in `bi_top15_ftrs.jl`.
-  * For the fulluu connected nueral network model, you can run `python neural_net_models.py` for the bi classification results which will be the first result. 
+  * For the fully connected nueral network model, you can run `python neural_net_models.py` for the bi classification results which will be the first result. 
   
 * Multi-classification models:
-  * For the neural network multi-classification model, we can run `python neural_net_models.py` which will contain the b-classification and multi-class results. 
+  * For the neural network multi-classification model, we can run `python neural_net_models.py` which will contain the bi-classification and multi-class results. 
   * We can also use `multi_class_models.py` to run the decision tree and generate the large tree for analysis. 
 
 * Supplementary codes: 
