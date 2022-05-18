@@ -35,7 +35,7 @@ The data comes from the 1K sample synthetic dataset from the open-source Synthea
 
 
 * Feature Selection:
-  * The data_analysis.jl allows us to know the percentage of missing features for each of the different features per patient.
+  * The `data_analysis.jl` allows us to know the percentage of missing features for each of the different features per patient.
   * `TopFeat_ToTxt.jl` identifies the top 5 features for the complications (and occurence of normal pregnancy) using FeatureSelectors, and outputs them to individual .txt files. 
   * Further feature selection was performed using the julia package, FeatureSelectors which utilizes a correlation based feature selection method. Top 15 features were selected for each condition. Features were then parsed to remove seemingly falsely selected (features with many N/A values, etc.)
 
